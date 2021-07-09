@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "prova",
+  "info": {
+    "name": "prova"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "asd": {
+      "type": "string"
+    },
+    "protuct": {
+      "via": "prova",
+      "model": "protucts"
+    }
+  }
+}
