@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_editoriali_heroes",
+  "info": {
+    "name": "Hero",
+    "icon": "tv"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "title1": {
+      "type": "string",
+      "required": true
+    },
+    "title2": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
