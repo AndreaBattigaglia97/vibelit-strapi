@@ -26,6 +26,46 @@
       },
       "component": "editoriali.hero",
       "required": true
+    },
+    "presentation": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "editoriali.presentation"
+    },
+    "aboutUs": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "editoriali.abous-us"
+    },
+    "videoComponent": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "editoriali.video-component"
+    },
+    "features": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "editoriali.features"
     }
   }
 }

@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_editoriali_video_components",
+  "info": {
+    "name": "videoComponent",
+    "icon": "video"
+  },
+  "options": {},
+  "attributes": {
+    "backgroundImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "title": {
+      "type": "string"
+    },
+    "CTAtext": {
+      "type": "string"
+    },
+    "CTALink": {
+      "type": "string"
+    }
+  }
+}

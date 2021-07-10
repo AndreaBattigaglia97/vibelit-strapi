@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_editoriali_presentations",
+  "info": {
+    "name": "presentation",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true
+    },
+    "images": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "CTA": {
+      "type": "string"
+    }
+  }
+}

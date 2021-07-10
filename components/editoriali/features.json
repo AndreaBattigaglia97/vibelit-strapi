@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_editoriali_features",
+  "info": {
+    "name": "features",
+    "icon": "feather"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "titleBold": {
+      "type": "string"
+    },
+    "featureDetail": {
+      "type": "component",
+      "repeatable": true,
+      "component": "editoriali.feature-detail"
+    }
+  }
+}
