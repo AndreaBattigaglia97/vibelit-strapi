@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_product_comp_product_features",
+  "info": {
+    "name": "product features",
+    "icon": "border-none"
+  },
+  "options": {},
+  "attributes": {
+    "light": {
+      "type": "boolean"
+    },
+    "music": {
+      "type": "boolean"
+    }
+  }
+}
